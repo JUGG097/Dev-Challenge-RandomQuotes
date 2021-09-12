@@ -1,0 +1,45 @@
+.mycontainer{
+    /* padding-bottom: 100px; */
+    min-height: 90vh;
+}
+
+.myheader {
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.myheader_authorname {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.26px;
+    color: #333333;
+}
+
+.myheader_random p{
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.myheader_random a{
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+
+.myheader_random p:hover{
+    background-color: #333333;
+    border-radius: 15px;
+    color: white;
+}
+
+.myquote_container {
+    margin-top: 40px;
+}
+
+.myquote {
+    border-left: 8px solid #F7DF94;
+    font-size: 36px;
+    line-height: 43.2px;
+    
+}

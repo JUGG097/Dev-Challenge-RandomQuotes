@@ -1,10 +1,89 @@
+
+.mycontainer{
+    /* padding-bottom: 100px; */
+    min-height: 90vh;
+    align-content: center;
+}
+
 .myheader {
     font-size: 18px;
     line-height: 21.6px;
+}
+
+.myheader_random p{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.myheader_random p:hover{
+    background-color: #333333;
+    border-radius: 15px;
+    color: white;
+}
+
+.myquote_container {
+    min-height: 60vh;
+    align-items: center;
 }
 
 .myquote {
     border-left: 8px solid #F7DF94;
     font-size: 36px;
     line-height: 43.2px;
+    
 }
+
+.authordetails {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.18px;
+    color: #4F4F4F;
+    cursor: pointer;
+   
+}
+
+.authordetails p{
+    padding: 0;
+    margin: 0;
+}
+
+.authordetails a{
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+.authordetails span {
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+
+/* .authordetails:hover {
+    background-color: #333333;
+    color: white;
+    
+} */
+
+/* .authordetails:hover {
+    background-color: #333333;
+    color: white;
+    
+} */
+
+.authordetails a:hover {
+    background-color: #333333;
+    color: white;
+} 
+
+/* .authordetails:hover {
+    background-color: #333333;
+    color: white;
+    
+} */
+
+
+.authordetails a span:hover {
+    color: #828282;
+}
+
